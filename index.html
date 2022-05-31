@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Asincronica 02 mod 02</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Bienvenido</h1>
+
+    <script>
+
+//Parte 1: Numero par e impar
+    //Solicitar numero
+    let valor = prompt('Escriba un numero')
+    //Cambio a numero
+    valor = parseInt(valor)
+    //Aplicando
+    if (valor%2 ==0) {
+        alert('Tu numero es par')
+    }
+    else (
+        alert('Tu numero es impar')
+    )
+//Fin parte 1
+
+//Comienzo parte 2
+    //Solicitar datos al usuario
+    const edad = prompt('Ingrese su edad')
+    const genero = prompt('Ingresa su genero')
+    const hombre = 65 //identificador
+    const mujer = 60 //Identificador
+    //Aplicando
+    if (edad >=60 && genero =="mujer") //Datos para mujeres
+        alert('Puede jubilar! :)')
+        else if (edad >=65 && genero == "hombre") { //Datos para hombres
+            alert('Puede jubilar! :)')
+        } 
+        else alert('No puede jubilar aun :(') //Si no cumple condicion no puede jubilar
+    //Fin parte 2
+    </script>
+</body> 
+</html>
